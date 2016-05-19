@@ -1,0 +1,21 @@
+{
+  "name": "slack-files-cleaner-cli",
+  "version": "0.0.1",
+  "description": "Easy tool to delete all old Slack files",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitriy Shekhovtsov <valorkin@gmail.com> (https://twitter.com/valorkin)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-valorsoft": "0.0.13"
+  },
+  "dependencies": {
+    "async": "2.0.0-rc.5",
+    "commander": "2.9.0",
+    "lodash": "4.12.0",
+    "xhr-request": "1.0.1"
+  }
+}
